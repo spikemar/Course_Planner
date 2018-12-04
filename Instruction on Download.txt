@@ -1,0 +1,10 @@
+Download Anaconda from here:
+https://www.continuum.io/downloads
+
+Anaconda is a python developer interface, it has the pandas.py library embedded into it. 
+
+The program we use from the dataframework is spyder
+
+After downloading and installing anaconda use the python scripts folder. 
+
+For Questions Email furkan7@gmail.com
