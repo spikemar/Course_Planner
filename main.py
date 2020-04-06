@@ -122,7 +122,7 @@ def write_results(placement, placement2, filename,df_classrooms, df_labrooms, df
     df_total.index=index
     
     df_total['classrooms'] = pd.Series(index2, index=df_total.index)
-    df_total.sort(['classrooms'], ascending=[True], inplace=True)
+    df_total.sort_values(['classrooms'], ascending=[True], inplace=True)
     df_total.to_excel(writer,'Allclasses')
     writer.save()
 
